@@ -1,0 +1,95 @@
+.kategorie-page {
+  margin: 0;
+}
+
+.kat-content {
+  width: 100%;
+  background-image: url(/images/kat_bg.webp);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  align-items: center;
+  padding-top: 10rem;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.kat-content .title {
+  text-align: center;
+  margin: 0;
+}
+
+.kat-content .title h1 {
+  font-size: 28px;
+  line-height: 31.47px;
+}
+
+.kat-content .title h2 {
+  font-size: 16px;
+  line-height: 19.36px;
+  margin-bottom: 18px;
+}
+
+.kat-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 80px 1rem;
+}
+
+.kat-text .kat-title {
+  display: flex;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.kat-text .kat-title h1 {
+  font-size: 26px;
+  line-height: 31.47px;
+  margin-bottom: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.kat-text .kat-title img {
+  width: 58px;
+  height: 58px;
+  margin-right: 13px;
+}
+
+.kat-text p {
+  width: 50%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 28.8px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.kat-text p a {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .kat-text p {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .kat-text p {
+    width: 100%;
+  }
+
+  .kat-text .kat-title {
+    flex-direction: column;
+  }
+
+  .kat-text .kat-title h1 {
+    text-align: center;
+  }
+}

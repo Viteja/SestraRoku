@@ -1,0 +1,131 @@
+nav {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+.menu a {
+  cursor: pointer;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25rem 0;
+}
+
+.navbar-scroll {
+  background-color: white;
+  animation: fadeIn 0.25s ease-in-out;
+}
+
+.navbar .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar .logo img {
+  width: 40px;
+  height: 36px;
+  margin-right: 10px;
+}
+
+.navbar .logo h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+}
+
+.navbar .logo h1 span {
+  color: var(--red);
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin-left: 50px;
+  align-content: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.navbar ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.navbar ul li .regular:hover {
+  color: var(--blue);
+}
+
+.primary-btn {
+  background-color: var(--yellow);
+  padding: 15px 20px;
+  border-radius: 3px;
+}
+
+nav .nav-changer {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  nav .nav-changer {
+    display: block;
+    color: var(--blue);
+    font-size: 2rem;
+    cursor: pointer;
+    padding-right: 2rem;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .navbar {
+    background-color: white;
+  }
+
+  .navbar .show {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    left: 0;
+    top: 3.1rem;
+    background-color: white;
+    padding: 1rem 0;
+    align-items: center;
+  }
+
+  nav .show li {
+    margin: 1.5rem 1rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  nav .nav-changer {
+    padding-right: 1rem;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

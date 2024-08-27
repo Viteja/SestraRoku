@@ -1,0 +1,644 @@
+/* -----------------------------HOME----------------------------- */
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  background-image: url(/images/main_bg.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 1rem 0;
+}
+
+.title {
+  margin-left: 15px;
+}
+
+.title h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50.83px;
+  text-transform: uppercase;
+  color: black;
+  margin: 5px 0;
+}
+
+.title h2 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.36px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--blue);
+  margin: 0;
+}
+
+.pce-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 0.25rem 1rem;
+  border-radius: 32px;
+  width: fit-content;
+}
+
+.pce-logo p {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  line-height: 19.36px;
+  margin: 5px;
+}
+
+.pce-logo img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.home-content {
+  margin-left: 15px;
+}
+
+.home-content h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: black;
+  line-height: 77.45px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.home-content h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  line-height: 19.36px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.home-content h3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.home-content .buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.buttons .primary-btn {
+  background-color: var(--yellow);
+  padding: 15px 20px;
+  border-radius: 3px;
+  margin-right: 20px;
+  border: 2px solid var(--yellow);
+}
+
+.buttons .secondary-btn {
+  background-color: transparent;
+  padding: 15px 20px;
+  border-radius: 3px;
+  color: black;
+  border: 2px solid black;
+}
+
+.buttons .secondary-btn:hover {
+  background-color: #00000008;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: black;
+}
+
+/* -----------------------------PRAVIDLA----------------------------- */
+
+.rule-wraper {
+  margin: 4rem 0;
+}
+
+.rules {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4rem;
+  justify-content: space-between;
+}
+.rule {
+  width: 30%;
+}
+
+.rule img {
+  width: 73px;
+}
+
+.rule .rule-content {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.rule .rule-content h1 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.2px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.rule .rule-content p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25.6px;
+}
+
+.rule .rule-content p span {
+  font-weight: 700;
+}
+
+.rule .rule-content p a {
+  color: var(--blue);
+  text-decoration: underline;
+}
+/* -----------------------------KATEGORIE----------------------------- */
+
+.kategorie-wraper {
+  margin: 8rem 0;
+}
+
+.kategorie-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 4rem 15px;
+}
+
+.kategorie-content .kategorie-item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/images/kat1.webp);
+  min-height: 240px;
+  justify-content: flex-end;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+.kategorie-content .kategorie-item:hover {
+  filter: brightness(0.95);
+}
+
+.kategorie-content .kategorie-item:nth-child(2) {
+  background-image: url(/images/kat2.webp);
+}
+
+.kategorie-content .kategorie-item:nth-child(3) {
+  background-image: url(/images/kat3.webp);
+}
+.kategorie-content .kategorie-item h1 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.12px;
+  color: black;
+  margin: 40px 27px;
+}
+
+/* -----------------------------FORMULÁŘ----------------------------- */
+
+.form-wraper {
+  margin: 8rem 0;
+}
+
+form {
+  width: 100%;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 15px;
+  width: 100%;
+}
+
+.form-content h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 20px;
+  background-color: #ebebeb;
+  border-radius: 3px;
+  margin-right: 15px;
+  border: none;
+}
+
+.form-group input:focus {
+  outline: 2px solid black;
+}
+
+.form-group textarea {
+  width: 100%;
+  padding: 20px;
+  background-color: #ebebeb;
+  border-radius: 3px;
+  border: none;
+  margin-right: 15px;
+}
+
+.form-group textarea::placeholder {
+  font-family: "Inter", sans-serif;
+}
+
+.form-btn1 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+
+.form-btn2 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+
+.form-btn1 input {
+  background-color: var(--yellow);
+  padding: 15px 50px;
+  border-radius: 4px;
+  border: none;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.form-btn2 input {
+  background-color: var(--yellow);
+  padding: 15px 50px;
+  border-radius: 4px;
+  border: none;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.form-btn input:hover {
+  background-color: #fce236;
+}
+
+.form-select {
+  width: 50%;
+  margin-right: 15px;
+}
+
+.form-funkce {
+  width: 50%;
+  margin-right: 15px;
+}
+
+.form-group p {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+}
+
+.form-select select {
+  width: 100%;
+  padding: 20px;
+  background-color: #ebebeb;
+  border-radius: 3px;
+  border: none;
+}
+
+#submitButton {
+  background-color: var(--yellow); /* Zelená barva pro aktivní tlačítko */
+}
+
+#submitButton:disabled {
+  background-color: #c9b42a; /* Šedá barva pro zakázané tlačítko */
+}
+
+.alert {
+  margin: 8rem 0;
+}
+
+.alert-card {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/images/sestraroku.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  align-items: center;
+}
+
+.alert-content {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.alert-content h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+}
+
+.alert-content h1 span {
+  color: var(--blue);
+}
+
+.alert-content h2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+  margin: 2rem 0;
+}
+
+.alert-content p {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  line-height: 25.6px;
+}
+
+.alert-content p span {
+  font-weight: 600;
+}
+
+.vote {
+  margin: 8rem 0;
+}
+
+.vote-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  column-gap: 1.5rem;
+  row-gap: 3rem;
+  margin-top: 2rem;
+}
+
+.vote-item {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  justify-content: flex-start;
+}
+
+.vote-item:hover {
+  background-color: #f5f5f5;
+}
+
+.vote-item .primary-btn {
+  background-color: var(--yellow);
+  padding: 10px 20px;
+  border-radius: 0 0 5px 5px;
+  border: 2px solid var(--yellow);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.item-content {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  height: 100%;
+}
+
+.item-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.item-content p {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.item-content .vote {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--blue);
+}
+
+.item-content .vote span {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+}
+
+.item-content p span {
+  font-weight: 700;
+}
+
+.vote-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 3px;
+  object-position: top;
+}
+
+.hlas {
+  width: 100%;
+  background-color: #e2e8f8;
+  padding: 2rem 0;
+  margin-bottom: 4rem;
+}
+
+.hlas-content h1 {
+  font-size: 35px;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hlas-content span {
+  color: var(--blue);
+}
+
+.allvotes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+
+.allvotes h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.allvotes h1 span {
+  font-weight: 800;
+  font-size: 20px;
+  color: var(--blue);
+}
+
+/* ----------------Mobile---------------- */
+@media (max-width: 480px) {
+  .home-content .buttons {
+    flex-direction: column;
+    align-items: start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .buttons .primary-btn {
+    margin-right: 0;
+    margin-bottom: 20px;
+    padding: 15px 40px;
+  }
+
+  .buttons .secondary-btn {
+    padding: 15px 40px;
+  }
+
+  .home-content h1 {
+    font-size: 50px;
+    line-height: 50.83px;
+  }
+
+  .home {
+    padding-top: 4rem;
+  }
+
+  .form-btn1 input {
+    width: 100%;
+  }
+
+  .form-btn2 input {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .form-btn2 {
+    flex-direction: column;
+  }
+
+  .navbar .logo img {
+    width: 30px;
+  }
+
+  .navbar .logo h1 {
+    font-size: 1.3rem;
+  }
+}
+/* ----------------Tablet---------------- */
+@media (max-width: 768px) {
+  .rules {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rules .rule {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .kategorie-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .kategorie-content .kategorie-item {
+    margin-bottom: 20px;
+    width: 100%;
+
+    background-size: cover;
+  }
+
+  .home {
+    padding-top: 5rem;
+  }
+
+  .form-group {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .form-select {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .form-select select {
+    margin-top: 15px;
+  }
+
+  .form-group input {
+    margin-top: 15px;
+  }
+
+  .form-group textarea {
+    margin: 15px 0;
+  }
+
+  .form-btn1,
+  .form-btn2 {
+    margin-right: 0;
+    margin-top: 15px;
+  }
+
+  .form-funkce {
+    width: 100%;
+  }
+
+  .form-group p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .alert-card {
+    background-image: none;
+  }
+}
+
+@media (min-width: 1201px) {
+  .rule-wraper {
+    margin: 10rem 0;
+  }
+
+  .kategorie-wraper {
+    margin: 10rem 0;
+  }
+
+  .form-wraper {
+    margin: 10rem 0;
+  }
+}

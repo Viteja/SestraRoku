@@ -1,0 +1,277 @@
+.footer {
+  width: 100%;
+  padding: 15px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.footer .logo img {
+  width: 40px;
+  height: 36px;
+  margin-right: 10px;
+}
+
+.footer .logo h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+}
+
+.footer .logo h1 span {
+  color: var(--red);
+}
+
+.footer-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-main img {
+  width: 50px;
+}
+
+.footer-main h2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: black;
+  margin: 10px 0 16px 0;
+  width: 70%;
+}
+
+.footer-main h2 span {
+  font-weight: 500;
+  line-height: 32px;
+}
+.footer-minor {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-minor .items {
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-minor .items h1 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.36px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 18px;
+  white-space: nowrap;
+}
+
+.footer-minor .items h2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: black;
+  margin: 10px 0;
+}
+
+.footer-minor .items a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: black;
+  margin: 10px 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bottom {
+  width: 100%;
+  border-top: 1px solid #cecece;
+}
+
+.bottom-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+}
+
+.author-item {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  align-items: center;
+}
+
+.author-item img {
+  width: 100px;
+}
+
+.author-item a {
+  display: flex;
+  font-weight: 600;
+  color: black;
+  margin-left: 10px;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+footer p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: black;
+  margin: 16px 0;
+}
+
+.pcelink {
+  background-color: #e2e8f8;
+  display: flex;
+  flex-direction: row;
+  padding: 22px 38px;
+  width: 100%;
+  justify-content: space-between;
+  border-radius: 3px;
+  margin: 0 15px 50px 15px;
+}
+
+.pcelink h1 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+}
+
+.items i {
+  font-size: 25px;
+  color: #1877f2;
+}
+
+.items a:hover i {
+  color: #205fb3;
+}
+
+.items a {
+  width: fit-content;
+}
+
+.footer-main .zastita {
+  width: fit-content;
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+
+.footer-minor a:hover {
+  color: var(--blue);
+}
+
+.footer-main .zastita:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  .pcelink {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pcelink h1 {
+    margin-bottom: 20px;
+  }
+
+  .pcelink a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-main h2 {
+    width: 100%;
+  }
+
+  .footer-minor .items {
+    margin-left: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .author-item {
+    margin: 0 15px;
+  }
+
+  .footer-minor .items {
+    margin-left: 30px;
+  }
+
+  .footer .logo h1 {
+    font-size: 1.2rem;
+  }
+
+  .footer .logo img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer-minor .items h1 {
+    font-size: 14px;
+  }
+
+  .footer-minor .items h2 {
+    font-size: 12px;
+  }
+  .footer-minor .items a {
+    font-size: 12px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-content {
+    flex-direction: column;
+    margin: 0 10px;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+
+  .footer-minor .items {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .footer-minor {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .bottom-content {
+    flex-direction: column;
+  }
+
+  .author-item a {
+    font-size: 10px;
+  }
+
+  .author-item img {
+    width: 80px;
+  }
+}
