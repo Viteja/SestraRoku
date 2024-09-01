@@ -296,19 +296,17 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="hlas">
+      <div className="hlas" id="form-sec">
         <div className="container">
-          <div className="hlas-content" data-aos="fade-down">
+          <div className="hlas-content">
             <h1>
-              Hlasování bude probíhat do{" "}
-              <span data-aos="fade-down" data-aos-delay="200">
-                31. 8. 2024
-              </span>
+              Děkujeme
+              <span> že jste hlasovali</span>
             </h1>
           </div>
         </div>
       </div>
-      <div className="vote" id="form-sec">
+      {/* <!--   <div className="vote" id="form-sec">
         <div className="container">
           <div className="row">
             <div className="title">
@@ -343,7 +341,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </div>
+      </div> -->*/}
 
       {/* <!--<div className="form-wraper" id="form-sec">
         <div className="container">
