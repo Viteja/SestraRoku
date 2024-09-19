@@ -58,7 +58,7 @@ export default function Footer() {
                   <h1>Užitečné</h1>
                   <a onClick={() => handleClickScroll("rules")}>Pravidla</a>
                   <a onClick={() => handleClickScroll("kategorie")}>Kategorie</a>
-                  <a onClick={() => handleClickScroll("form-sec")}>Nominace</a>
+                  <a onClick={() => handleClickScroll("tisk")}>Výsledky</a>
                 </div>
                 <div className="items">
                   <h1>Kontaktujte nás</h1>

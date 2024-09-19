@@ -13,6 +13,12 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import $ from "jquery";
 
+import "@splidejs/react-splide/css";
+
+import "@splidejs/react-splide/css/sea-green";
+
+import "@splidejs/react-splide/css/core";
+
 function App() {
   // Animace //
   useEffect(() => {

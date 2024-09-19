@@ -58,8 +58,8 @@ export default function Navbar() {
                 </a>
               </li>
               <li>
-                <a onClick={() => handleClickScroll("form-sec")} className="primary-btn">
-                  Hlasování
+                <a onClick={() => handleClickScroll("tisk")} className="primary-btn">
+                  Výsledky
                 </a>
               </li>
             </ul>
