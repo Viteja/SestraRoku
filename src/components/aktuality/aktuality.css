@@ -12,7 +12,7 @@
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin: 1rem 1rem 3rem 1rem;
-  padding: 2.5rem 1.5rem;
+  padding: 2rem 1.5rem;
   min-height: 530px;
 }
 
@@ -63,6 +63,7 @@
   display: flex;
   flex-direction: column;
   margin: 0.5rem 0;
+  width: 100%;
 }
 
 .card-item p {
@@ -70,4 +71,33 @@
   font-weight: 400;
   line-height: 22px;
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  .card-content {
+    height: unset;
+  }
+
+  .card h1 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .card h5 {
+    font-size: 16px;
+  }
+
+  .card-item p {
+    font-size: 10px;
+    line-height: 18px;
+  }
+
+  .card-bottom {
+    padding: 0;
+  }
+
+  .card {
+    text-align: center;
+    min-height: 600px;
+  }
 }

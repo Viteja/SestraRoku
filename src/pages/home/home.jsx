@@ -11,6 +11,14 @@ import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import Aktuality from "../../components/aktuality/aktuality";
+import LightGallery from "lightgallery/react";
+
+import "lightgallery/css/lightgallery.css";
+import "lightgallery/css/lg-zoom.css";
+import "lightgallery/css/lg-thumbnail.css";
+
+import lgThumbnail from "lightgallery/plugins/thumbnail";
+import lgZoom from "lightgallery/plugins/zoom";
 
 export default function Home() {
   function handleClickScroll(id) {
@@ -184,6 +192,9 @@ export default function Home() {
 
   console.log(getAllData);
 
+  const onInit = () => {
+    console.log("lightGallery has been initialized");
+  };
   return (
     <>
       <ToastContainer position="bottom-right" autoClose={5000} hideProgressBar={false} newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover theme="light" transition:Bounce />
@@ -263,9 +274,9 @@ export default function Home() {
               <div className="rule" data-aos="fade-up" data-aos-delay="250" data-aos-duration="800">
                 <div className="rule-content">
                   <img src="/images/icon3.webp" alt="SestraRoku Icon" draggable="false" />
-                  <h1>Do kdy poslat návrh?</h1>
+                  <h1>Kdy poslat návrh?</h1>
                   <p>
-                    <span>Nominace</span> na první ročník je možné podávat od 25. dubna 2024 do 30. června 2024
+                    <span>Termín nominace</span> na 2. ročník včas zveřejníme.
                   </p>
                 </div>
               </div>
@@ -315,6 +326,7 @@ export default function Home() {
                 aria-label="My Favorite Images"
                 options={{
                   rewind: true,
+                  autoplay: true,
                   loop: true,
                   perPage: 3,
                   gap: "0.5rem",
@@ -337,14 +349,15 @@ export default function Home() {
                 }}
               >
                 <Aktuality src={"./images/winner.png"} title={"Cena veřejnosti"} jedna={"Tereza Kiňo Sovová"} jednax={"oční klinika Oftex Pardubice"} />
-                <Aktuality src={"./images/winner.png"} title={"Sestra v přímé ošetřovatelské péče"} jedna={"1. Simona Žabková"} jednax={"Albertinum Žamberk, oddělení paliativní a hospicové péče"} dva={"2. Martina Voženílková"} dvax={"porodnice, Chrudimská nemocnice"} tri={"3. Vlasta Antošová"} trix={"gynekologie, Chrudimská nemocnice"} />
+                <Aktuality src={"./images/winner.png"} title={"Sestra v přímé ošetřovatelské péči"} jedna={"1. Simona Žabková"} jednax={"Albertinum Žamberk, oddělení paliativní a hospicové péče"} dva={"2. Martina Voženílková"} dvax={"Porodnice, Chrudimská nemocnice"} tri={"3. Vlasta Antošová"} trix={"Gynekologie, Chrudimská nemocnice"} />
                 <Aktuality src={"./images/winner.png"} title={"Sestra v sociálních službách"} jedna={" 1. Markéta Vašková"} jednax={"Mobilní hospic Oblastní charity Pardubice"} dva={" 2. Květa Paulus"} dvax={"Centrum duševního zdraví Chrudim"} tri={"3. Veronika Klimová"} trix={"Alzheimer Home Pardubice"} />
-                <Aktuality src={"./images/winner.png"} title={"Čestné ocenění za celoživotní práci"} jedna={"1. Olga Lindnerová"} jednax={"Stomatochirurgie Chrudim, MUDr. Michal Haltuch"} dva={"2. Věra Koppová"} dvax={"Zdravotnická záchranná služba Pardubice, Staré Čívice"} tri={"3. Milada Faltusová"} trix={"ortopedie, Poliklinika Žamberk"} />
+                <Aktuality src={"./images/winner.png"} title={"Čestné ocenění za celoživotní práci"} jedna={"1. Olga Lindnerová"} jednax={"Stomatochirurgie Chrudim, MUDr. Michal Haltuch"} dva={"2. Věra Koppová"} dvax={"Zdravotnická záchranná služba Pardubice, Staré Čívice"} tri={"3. Milada Faltusová"} trix={"Ortopedie, Poliklinika Žamberk"} />
                 <Aktuality src={"./images/winner.png"} title={"Cena náměstkyně hejtmana za zdravotnictví"} jedna={"Miroslava Kozelková, in memoriam"} jednax={"Nemocnice následné péče Moravská Třebová"} />
               </Splide>
             </div>
           </div>
         </div>
+
         <div className="tisk-content">
           <div className="container">
             <div className="row">
@@ -379,6 +392,61 @@ export default function Home() {
                   </p>
                 </li>
               </ul>
+            </div>
+          </div>
+        </div>
+        <div className="gallery">
+          <div className="container">
+            <div className="row">
+              <div className="gallery-content">
+                <LightGallery onInit={onInit} speed={500} plugins={[lgThumbnail, lgZoom]}>
+                  <a href="/images/1_misto-min.webp">
+                    <img alt="Ocenění za první místo" src="/images/1_misto-min.webp" />
+                  </a>
+                  <a href="/images/hudebni_doprovod-min.webp">
+                    <img alt="Hudební doprovod" src="/images/hudebni_doprovod-min.webp" />
+                  </a>
+                  <a href="/images/kveta_paulus-min.webp">
+                    <img alt="Květa Paulus" src="/images/kveta_paulus-min.webp" />
+                  </a>
+                  <a href="/images/marketa_vaskova-min.webp">
+                    <img alt="Markéta Vašková" src="/images/marketa_vaskova-min.webp" />
+                  </a>
+                  <a href="/images/michaela_matouskova-min.webp">
+                    <img alt="Micheala Matouškouvá" src="/images/michaela_matouskova-min.webp" />
+                  </a>
+                  <a href="/images/miroslava_kozelkova-min.webp">
+                    <img alt="Mimořádné ocenění in memoriam přebíraly dcery paní Miroslavy Kozelkové" src="/images/miroslava_kozelkova-min.webp" />
+                  </a>
+                  <a href="/images/olga_lindnerova-min.webp">
+                    <img alt="Cenu za Olgu Lindnerovou přebírala rodina" src="/images/olga_lindnerova-min.webp" />
+                  </a>
+                  <a href="/images/predavani-min.webp">
+                    <img alt="Předávání" src="/images/predavani-min.webp" />
+                  </a>
+                  <a href="/images/spolecna_fotka-min.webp">
+                    <img alt="Společné foto všech oceněných" src="/images/spolecna_fotka-min.webp" />
+                  </a>
+                  <a href="/images/tereza_kino-min.webp">
+                    <img alt="Cenu za Terezu Kiňo přebírala kolegině" src="/images/tereza_kino-min.webp" />
+                  </a>
+                  <a href="/images/vera_koppova-min.webp">
+                    <img alt="Věra Koppová" src="/images/vera_koppova-min.webp" />
+                  </a>
+                  <a href="/images/veronika_klimova-min.webp">
+                    <img alt="Veronika Klimová" src="/images/veronika_klimova-min.webp" />
+                  </a>
+                  <a href="/images/vlasta_antosova-min.webp">
+                    <img alt="Vlasta Antosová" src="/images/vlasta_antosova-min.webp" />
+                  </a>
+                  <a href="/images/simona_zabkova-min.webp">
+                    <img src="/images/simona_zabkova-min.webp" alt="Simona Žabková" />
+                  </a>
+                  <a href="/images/martina_vozenilkova-min.webp">
+                    <img src="/images/martina_vozenilkova-min.webp" alt="Martina Voženílková" />
+                  </a>
+                </LightGallery>
+              </div>
             </div>
           </div>
         </div>

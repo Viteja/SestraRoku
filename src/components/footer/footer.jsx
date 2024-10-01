@@ -84,12 +84,14 @@ export default function Footer() {
                 <div className="author">
                   <div className="author-item">
                     <p>Vytvořil:</p>
-                    <a href="/">DesignJJ</a>
+                    <a href="https://designjj.cz/" target="_blank" aria-label="DesignJJ">
+                      DesignJJ
+                    </a>
                   </div>
                   <div className="author-item">
                     <p>Designoval:</p>
                     <a href="https://redesigner.cz/" target="_blank" aria-label="Redesigner">
-                      <img src="/images/redesigner.svg" alt="Redesigner " />
+                      <img src="/images/redesigner.svg" alt="Redesigner" />
                     </a>
                   </div>
                 </div>
