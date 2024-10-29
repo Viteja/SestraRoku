@@ -9,6 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Kategorie1 from "./pages/kategorie/kategorie1";
 import Kategorie2 from "./pages/kategorie/kategorie2";
 import Kategorie3 from "./pages/kategorie/kategorie3";
+import Vysledky_2024 from "./pages/vysledky/vysledky_2024";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import $ from "jquery";
@@ -42,6 +43,7 @@ function App() {
           <Route path="/sestra-v-prime-osetrovatelske-peci" element={<Kategorie1 />} />
           <Route path="/sestra-v-socialnich-sluzbach" element={<Kategorie2 />} />
           <Route path="/cestne-oceneni-za-celozivotni-praci" element={<Kategorie3 />} />
+          <Route path="/vysledky_2024" element={<Vysledky_2024 />} />
         </Routes>
         <ScrollToTop />
       </BrowserRouter>

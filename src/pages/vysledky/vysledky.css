@@ -1,0 +1,87 @@
+.vysledky-title h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50.83px;
+  text-transform: uppercase;
+  color: black;
+  margin: 5px 0;
+}
+
+.vysledky-title h1 span {
+  color: var(--blue);
+}
+
+.vysledky-title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.tisk {
+  margin: 10rem 0;
+}
+
+.tisk-content {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 15px;
+}
+
+.tisk-content h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 43.5px;
+}
+
+.tisk-content h1 span {
+  color: var(--blue);
+}
+
+.tisk-content h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  margin: 1.5rem 0;
+  line-height: 31.27px;
+}
+
+.tisk-content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  margin: 1.5rem 0;
+  line-height: 26.6px;
+}
+
+.tisk-content p span {
+  font-style: italic;
+}
+
+.tisk-content p b {
+  font-weight: 600;
+}
+
+.winners h5 {
+  font-weight: 600;
+  color: black;
+  margin: 0;
+  padding: 0 15px;
+}
+
+.winners {
+  width: 100%;
+}
+
+.gallery-content img {
+  border-radius: 3px;
+  width: 350px;
+  height: auto;
+  margin: 1rem;
+}
+
+.g {
+  z-index: 9999;
+}

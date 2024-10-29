@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./navbar.css";
 import { useNavigate } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export default function Navbar() {
   let navigate = useNavigate();
@@ -33,6 +34,16 @@ export default function Navbar() {
     }, 100);
   }
 
+  {
+    /* Dropdonw */
+  }
+
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setDropdownOpen(!dropdownOpen);
+  };
+
   return (
     <nav className={scroll ? "navbar" : "navbar navbar-scroll"}>
       <div className="container">
@@ -57,9 +68,24 @@ export default function Navbar() {
                   Kategorie
                 </a>
               </li>
-              <li>
-                <a onClick={() => handleClickScroll("tisk")} className="primary-btn">
+
+              <li className="navbar-item">
+                <button className="regular-dropdown" onClick={toggleDropdown}>
                   Výsledky
+                  <i className="fa-solid fa-caret-down"></i>
+                </button>
+                {dropdownOpen && (
+                  <ul className="dropdown-menu">
+                    <li className="dropdown-item">
+                      <HashLink to="/vysledky_2024">Ročník 2024</HashLink>
+                    </li>
+                  </ul>
+                )}
+              </li>
+
+              <li>
+                <a onClick={() => handleClickScroll("form-sec")} className="primary-btn">
+                  Nominace
                 </a>
               </li>
             </ul>

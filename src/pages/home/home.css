@@ -274,8 +274,14 @@ form {
 
 .form-btn1 {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   margin-right: 15px;
+}
+
+.form-btn1 a {
+  color: #0062ad7c;
+  text-decoration: underline;
+  font-size: 14px;
 }
 
 .form-btn2 {
@@ -506,77 +512,6 @@ form {
   font-weight: 800;
   font-size: 20px;
   color: var(--blue);
-}
-
-.tisk {
-  margin: 8rem 0;
-}
-
-.tisk-content {
-  display: flex;
-  flex-direction: column;
-  margin: 4rem 15px;
-}
-
-.tisk-content h1 {
-  font-size: 30px;
-  font-weight: 700;
-  color: black;
-  text-transform: uppercase;
-  margin: 0;
-  line-height: 43.5px;
-}
-
-.tisk-content h1 span {
-  color: var(--blue);
-}
-
-.tisk-content h3 {
-  font-size: 20px;
-  font-weight: 500;
-  color: black;
-  margin: 1.5rem 0;
-  line-height: 31.27px;
-}
-
-.tisk-content p {
-  font-size: 16px;
-  font-weight: 400;
-  color: black;
-  margin: 1.5rem 0;
-  line-height: 26.6px;
-}
-
-.tisk-content p span {
-  font-style: italic;
-}
-
-.tisk-content p b {
-  font-weight: 600;
-}
-
-.winners h5 {
-  font-size: 26px;
-  font-weight: 600;
-  color: black;
-  margin: 0;
-  padding: 0 15px;
-}
-
-.winners {
-  width: 100%;
-  margin: 4rem 0;
-}
-
-.gallery-content img {
-  border-radius: 3px;
-  width: 350px;
-  height: auto;
-  margin: 1rem;
-}
-
-.g {
-  z-index: 9999;
 }
 
 /* ----------------Mobile---------------- */
