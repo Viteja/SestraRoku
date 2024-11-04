@@ -225,7 +225,7 @@ export default function Home() {
                 Náměstkyně hejtmana pro oblast zdravotnictví.
               </h3>
               <div className="buttons" data-aos="fade-right" data-aos-delay="250" data-aos-duration="800">
-                <a onClick={() => handleClickScroll("form-sec")} className="primary-btn">
+                <a onClick={() => handleClickScroll("rule")} className="primary-btn">
                   Nominace
                 </a>
                 <a onClick={() => handleClickScroll("rules")} className="secondary-btn">
@@ -277,7 +277,7 @@ export default function Home() {
                   <h1>Kdy poslat návrh?</h1>
                   <p>
                     <span>Termín</span> pro zaslání nominace <br />
-                    je od <span>1. 11. 2024.</span> Nominace je možné zaslat pomocí nominačního formuláře, který naleznete <a onClick={() => handleClickScroll("form-sec")}>níže</a>.{" "}
+                    je od <span>1. 12. 2024.</span> Nominace je možné zaslat pomocí nominačního formuláře, který naleznete <a onClick={() => handleClickScroll("form-sec")}>níže</a>.{" "}
                   </p>
                 </div>
               </div>
@@ -348,7 +348,7 @@ export default function Home() {
         </div>
       </div> -->*/}
 
-      <div className="form-wraper" id="form-sec">
+      {/* <!--   <div className="form-wraper" id="form-sec">
         <div className="container">
           <div className="row">
             <div className="title">
@@ -435,7 +435,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div>-->*/}
       <Footer />
     </>
   );
