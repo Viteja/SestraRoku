@@ -84,7 +84,7 @@ export default function Navbar() {
               </li>
 
               <li>
-                <a onClick={() => handleClickScroll("rule")} className="primary-btn">
+                <a onClick={() => handleClickScroll("rules")} className="primary-btn">
                   Nominace
                 </a>
               </li>

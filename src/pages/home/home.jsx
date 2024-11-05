@@ -225,7 +225,7 @@ export default function Home() {
                 Náměstkyně hejtmana pro oblast zdravotnictví.
               </h3>
               <div className="buttons" data-aos="fade-right" data-aos-delay="250" data-aos-duration="800">
-                <a onClick={() => handleClickScroll("rule")} className="primary-btn">
+                <a onClick={() => handleClickScroll("rules")} className="primary-btn">
                   Nominace
                 </a>
                 <a onClick={() => handleClickScroll("rules")} className="secondary-btn">

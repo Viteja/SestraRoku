@@ -85,7 +85,7 @@ export default function Footer() {
                   <div className="author-item">
                     <p>Vytvořil:</p>
                     <a href="https://designjj.cz/" target="_blank" aria-label="DesignJJ">
-                      DesignJJ
+                      <img src="/images/author.png" alt="DesignJJ" />
                     </a>
                   </div>
                   <div className="author-item">
