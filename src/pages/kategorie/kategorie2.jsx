@@ -20,7 +20,6 @@ export default function Kategorie2() {
             <h1>Sestra v sociálních službách</h1>
           </div>
         </div>
-
         <div className="container">
           <div className="row">
             <div className="kat-text">
