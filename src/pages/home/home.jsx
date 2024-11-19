@@ -298,10 +298,10 @@ export default function Home() {
           <div className="row">
             <div className="kategorie-content">
               <HashLink to="/sestra-v-prime-osetrovatelske-peci" className="kategorie-item" data-aos="fade-up" data-aos-duration="800">
-                <h1>Sestřička v přímé ošetřovatelské péči</h1>
+                <h1>Sestra v přímé ošetřovatelské péči</h1>
               </HashLink>
               <HashLink to="/sestra-v-socialnich-sluzbach" className="kategorie-item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-                <h1>Sestřička v sociálních službách</h1>
+                <h1>Sestra v sociálních službách</h1>
               </HashLink>
               <HashLink to="/cestne-oceneni-za-celozivotni-praci" className="kategorie-item" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
                 <h1>Čestné ocenění za celoživotní práci</h1>
