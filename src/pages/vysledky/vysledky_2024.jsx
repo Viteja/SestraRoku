@@ -65,11 +65,11 @@ export default function Vysledky_2024() {
                   },
                 }}
               >
-                <Aktuality src={"./images/verejnost.png"} title={"Cena veřejnosti"} jedna={"Tereza Kiňo Sovová"} jednax={"oční klinika Oftex Pardubice"} />
-                <Aktuality src={"./images/prime.png"} title={"Sestra v přímé ošetřovatelské péči"} jedna={"1. Simona Žabková"} jednax={"Albertinum Žamberk, oddělení paliativní a hospicové péče"} dva={"2. Martina Voženílková"} dvax={"Porodnice, Chrudimská nemocnice"} tri={"3. Vlasta Antošová"} trix={"Gynekologie, Chrudimská nemocnice"} />
-                <Aktuality src={"./images/social.png"} title={"Sestra v sociálních službách"} jedna={" 1. Markéta Vašková"} jednax={"Mobilní hospic Oblastní charity Pardubice"} dva={" 2. Květa Paulus"} dvax={"Centrum duševního zdraví Chrudim"} tri={"3. Veronika Klimová"} trix={"Alzheimer Home Pardubice"} />
-                <Aktuality src={"./images/zivot.png"} title={"Čestné ocenění za celoživotní práci"} jedna={"1. Olga Lindnerová"} jednax={"Stomatochirurgie Chrudim, MUDr. Michal Haltuch"} dva={"2. Věra Koppová"} dvax={"Zdravotnická záchranná služba Pardubice, Staré Čívice"} tri={"3. Milada Faltusová"} trix={"Ortopedie, Poliklinika Žamberk"} />
-                <Aktuality src={"./images/cena.png"} title={"Cena náměstkyně hejtmana za zdravotnictví"} jedna={"Miroslava Kozelková, in memoriam"} jednax={"Nemocnice následné péče Moravská Třebová"} />
+                <Aktuality src={"./images/Nurse Cap.png"} title={"Cena veřejnosti"} jedna={"Tereza Kiňo Sovová"} jednax={"oční klinika Oftex Pardubice"} />
+                <Aktuality src={"./images/Stethoscope.png"} title={"Sestra v přímé ošetřovatelské péči"} jedna={"1. Simona Žabková"} jednax={"Albertinum Žamberk, oddělení paliativní a hospicové péče"} dva={"2. Martina Voženílková"} dvax={"Porodnice, Chrudimská nemocnice"} tri={"3. Vlasta Antošová"} trix={"Gynekologie, Chrudimská nemocnice"} />
+                <Aktuality src={"./images/Nurse.png"} title={"Sestra v sociálních službách"} jedna={" 1. Markéta Vašková"} jednax={"Mobilní hospic Oblastní charity Pardubice"} dva={" 2. Květa Paulus"} dvax={"Centrum duševního zdraví Chrudim"} tri={"3. Veronika Klimová"} trix={"Alzheimer Home Pardubice"} />
+                <Aktuality src={"./images/Heart Rate.png"} title={"Čestné ocenění za celoživotní práci"} jedna={"1. Olga Lindnerová"} jednax={"Stomatochirurgie Chrudim, MUDr. Michal Haltuch"} dva={"2. Věra Koppová"} dvax={"Zdravotnická záchranná služba Pardubice, Staré Čívice"} tri={"3. Milada Faltusová"} trix={"Ortopedie, Poliklinika Žamberk"} />
+                <Aktuality src={"./images/Lace.png"} title={"Cena náměstkyně hejtmana za zdravotnictví"} jedna={"Miroslava Kozelková, in memoriam"} jednax={"Nemocnice následné péče Moravská Třebová"} />
               </Splide>
             </div>
           </div>

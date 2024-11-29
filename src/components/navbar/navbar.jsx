@@ -52,7 +52,7 @@ export default function Navbar() {
             <div className="logo">
               <img src="/images/logo_sestra.webp" alt="SestraRoku Logo" draggable="false" />
               <h1>
-                Sestřička<span>Roku</span>
+                Sestra<span>Roku</span>
               </h1>
             </div>
           </a>
