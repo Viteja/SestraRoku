@@ -65,10 +65,10 @@
 }
 
 .home-content h1 {
-  font-size: 64px;
+  font-size: 52px;
   font-weight: 700;
   color: black;
-  line-height: 77.45px;
+  line-height: 70.45px;
   text-transform: uppercase;
   margin-bottom: 0;
 }
@@ -589,6 +589,16 @@ form {
 
   .home {
     padding-top: 5rem;
+  }
+
+  .home-content h1 {
+    font-size: 28px;
+    line-height: 40.83px;
+  }
+
+  .home-content h3 {
+    font-size: 12px;
+    line-height: 25px;
   }
 
   .form-group {

@@ -241,6 +241,10 @@ footer p {
   footer p {
     font-size: 12px;
   }
+
+  .footer .logo h1 {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 480px) {

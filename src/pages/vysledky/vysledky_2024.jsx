@@ -23,7 +23,7 @@ export default function Vysledky_2024() {
       <Navbar />
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Sestřička Roku | Výsledky roku 2024</title>
+        <title>Sestra Pardubického kraje | Výsledky roku 2024</title>
         <link rel="canonical" href="https://sestra.pardubickykraj.cz//sestra-v-prime-osetrovatelske-peci" />
       </Helmet>
       <div className="tisk" id="tisk">

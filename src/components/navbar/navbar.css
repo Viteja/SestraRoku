@@ -103,7 +103,7 @@ nav .nav-changer {
     justify-content: center;
     width: 100%;
     left: 0;
-    top: 3.1rem;
+    top: 2.5rem;
     background-color: white;
     padding: 1rem 0;
     align-items: center;
@@ -193,5 +193,9 @@ nav .nav-changer {
 
   nav .show .dropdown-item {
     margin: 1rem !important;
+  }
+
+  .navbar .logo h1 {
+    font-size: 14px;
   }
 }

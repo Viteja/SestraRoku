@@ -201,7 +201,7 @@ export default function Home() {
       <Navbar />
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Sestra Roku</title>
+        <title>Sestra Pardubického kraje</title>
         <link rel="canonical" href="https://sestra.pardubickykraj.cz/" />
       </Helmet>
       <div className="home" id="home">
@@ -216,13 +216,10 @@ export default function Home() {
                 <p>Pardubický kraj</p>
               </div>
               <h1 data-aos="fade-right" data-aos-delay="150" data-aos-duration="800">
-                Nominuj
-                <br />
-                sestru
+                NOMINUJ SESTRU <br /> PARDUBICKÉHO KRAJE
               </h1>
               <h3 data-aos="fade-right" data-aos-delay="200" data-aos-duration="800">
-                Akce se koná pod osobní záštitou Ing. Michaely Matouškové, MPA, MHA <br />
-                Náměstkyně hejtmana pro oblast zdravotnictví.
+                Akce se koná pod osobní záštitou Pavla Štefky, <br /> náměstka hejtmana pro oblast zdravotnictví
               </h3>
               <div className="buttons" data-aos="fade-right" data-aos-delay="250" data-aos-duration="800">
                 <a onClick={() => handleClickScroll("rules")} className="primary-btn">
@@ -277,7 +274,7 @@ export default function Home() {
                   <h1>Kdy poslat návrh?</h1>
                   <p>
                     <span>Termín</span> pro zaslání nominace <br />
-                    je od <span>1. 1. 2025.</span> Nominace je možné zaslat pomocí nominačního formuláře, který naleznete <a onClick={() => handleClickScroll("form-sec")}>níže</a>.{" "}
+                    je od <span>1. 1. 2025</span> do <span> 31.5.2025</span> Nominace je možné zaslat pomocí nominačního formuláře, který naleznete <a onClick={() => handleClickScroll("form-sec")}>níže</a>.{" "}
                   </p>
                 </div>
               </div>

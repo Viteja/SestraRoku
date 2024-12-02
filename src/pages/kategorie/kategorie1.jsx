@@ -10,7 +10,7 @@ export default function Kategorie1() {
       <Navbar />
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Sestřička Roku | Sestra v přímé ošetřovatelské péči</title>
+        <title>Sestra Pardubického kraje | Sestra v přímé ošetřovatelské péči</title>
         <link rel="canonical" href="https://sestra.pardubickykraj.cz//sestra-v-prime-osetrovatelske-peci" />
       </Helmet>
       <div className="kategorie-page">

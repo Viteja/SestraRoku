@@ -11,7 +11,7 @@ export default function Kategorie3() {
       <Navbar />
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Sestřička Roku | Čestné ocenění za celoživotní práci</title>
+        <title>Sestra Pardubického kraje | Čestné ocenění za celoživotní práci</title>
         <link rel="canonical" href="https://sestra.pardubickykraj.cz//cestne-oceneni-za-celozivotni-praci" />
       </Helmet>
       <div className="kategorie-page">

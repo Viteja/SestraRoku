@@ -39,19 +39,12 @@ export default function Footer() {
                   <div className="logo">
                     <img src="/images/logo_sestra.webp" alt="SestraRoku Logo" draggable="false" />
                     <h1>
-                      Sestra<span>Roku</span>
+                      Sestra <span>Pardubického kraje</span>
                     </h1>
                   </div>
                 </a>
 
-                <h2>
-                  <span>Akce se koná pod osobní záštitou: </span> <br />
-                  <a href="/zastita.pdf" target="_blank" className="zastita">
-                    Ministra zdravotnictví České republiky prof. MUDr. Vlastimila Válka, CSc., MBA, EBIR
-                  </a>
-                  <br />
-                  Náměstkyně hejtmana pro oblast zdravotnictví Ing. Michaely Matouškové, MPA, MHA
-                </h2>
+                <h2>Akce se koná pod osobní záštitou náměstka hejtmana pro oblast zdravotnictví Pavla Štefky</h2>
               </div>
               <div className="footer-minor">
                 <div className="items">
@@ -63,7 +56,7 @@ export default function Footer() {
                 <div className="items">
                   <h1>Kontaktujte nás</h1>
                   <h2>sestraroku@pardubickykraj.cz</h2>
-                  <h2>(+420) 466 026 259</h2>
+                  <h2>(+420) 466 026 224</h2>
                   <a href="https://www.facebook.com/profile.php?id=61557906042752&locale=cs_CZ" target="_blank">
                     <i className="fa-brands fa-facebook"></i>
                   </a>
