@@ -254,7 +254,7 @@ export default function Home() {
                   <img src="/images/icon2.webp" alt="SestraRoku Icon" draggable="false" />
                   <h1>Jak poslat návrh?</h1>
                   <p>
-                    <span>Navrhovatel</span> nominuje soutěžícího zasláním vyplněné přihlášky & nominace, včetně krátkého písemného odůvodnění. Přihláška musí být úplně a pravdivě vyplněna včetně výběru kategorie, kontaktní spojení na nominujícího/navrhovatele
+                    <span>Navrhovatel</span> nominuje soutěžícího prostřednictvím on-line nominačního formuláře. Všechna povinná políčka musí být řádně vyplněna, jinak nebude možné pokračovat v odeslání formuláře.
                   </p>
                 </div>
               </div>
